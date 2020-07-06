@@ -8,7 +8,7 @@ class MyApp extends App {
   render() {
     const { Component, pageProps, router } = this.props;
     return (
-      <AnimatePresence exitBeforeEnter>
+      <AnimatePresence>
         <Head key="Head">
           <title>React Kanban Board</title>
           <meta

@@ -1,6 +1,5 @@
 import { signin } from "next-auth/client";
 import { motion } from "framer-motion";
-import FacebookIcon from "../../img/icons/facebook.svg";
 
 export default () => (
   <div className="w-full min-h-screen flex justify-center items-center">
@@ -12,7 +11,6 @@ export default () => (
         signin("facebook", { callbackUrl: "http://localhost:3000/" })
       }
     >
-      <FacebookIcon className="mr-2 w-4 h-4"></FacebookIcon>
       Continue with Facebook
     </motion.button>
   </div>
