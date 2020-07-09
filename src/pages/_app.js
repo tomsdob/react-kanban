@@ -16,7 +16,7 @@ class MyApp extends App {
             content="initial-scale=1.0, width=device-width"
           />
         </Head>
-        <div className="font-sans subpixel-antialiased">
+        <div className="flex flex-col font-poppins subpixel-antialiased min-h-screen">
           <Component {...pageProps} key={router.route} />
         </div>
       </AnimatePresence>
