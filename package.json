@@ -12,7 +12,7 @@
     "framer-motion": "^1.11.1",
     "mongoose": "^5.9.21",
     "next": "9.4.4",
-    "next-auth": "^2.2.0",
+    "next-auth": "^3.3.0",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^2.0.5",
     "react": "16.13.1",
